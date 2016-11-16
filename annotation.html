@@ -42,22 +42,17 @@
 
         
         <script type="text/javascript">
-<<<<<<< HEAD:annotation-twitterstyle.html
             for (var i = 1; i <= 50; i ++) {
                 if (i != 17 && i != 28 && i != 29 && i != 31 && i != 34 && i != 37 && i != 45 && i != 46 && i != 49 && i != 52 && i != 53 && i != 55 && i != 61 && i != 62 && i != 64 && i != 66) {
-=======
-            for (var i = 1; i <= 66; i ++) {
-                if (i != 17 && i != 28 && i != 29 && i != 31 && i != 34 && i != 37 && i != 45 && i != 46 && i != 49 && i != 52 && i != 53 && i != 55 && i != 61 && i != 62 && i != 66) {
->>>>>>> origin/master:index.html
-                var ind = "";
-                if (i < 10) {
+                    var ind = "";
+                    if (i < 10) {
                     //ind = "00" + i;
                     ind = "0" + i;
                 }else {
                     ind = i;
                 }
                 $("#topicSelect").append("<option value='" + ind + "'>" + ind + "." + topics[i] + "</option>");
-                }
+                
             }
             $("#instructions").accordion({
                 header: '#header',
