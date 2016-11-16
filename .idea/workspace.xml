@@ -21,21 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="annotation-twitterstyle.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/annotation-twitterstyle.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="287" column="12" selection-start-line="287" selection-start-column="12" selection-end-line="287" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TTGTraining.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TTGTraining/TTGTraining.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="-1415">
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -54,11 +44,21 @@
       <file leaf-file-name="semantic-clusters-twitterstyle.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/semantic-clusters-twitterstyle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="4059">
+              <caret line="123" column="37" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
               <folding>
                 <marker date="1478165673587" expanded="true" signature="5463:5469" ph="&amp;nbsp;" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="annotation.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/annotation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="87" column="86" selection-start-line="87" selection-start-column="78" selection-end-line="87" selection-end-column="86" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,6 +82,7 @@
         <option value="$PROJECT_DIR$/semantic-clusters-twitterstyle.html" />
         <option value="$PROJECT_DIR$/annotation-twitterstyle.html" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic01.json" />
+        <option value="$PROJECT_DIR$/annotation.html" />
       </list>
     </option>
   </component>
@@ -122,29 +123,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NoveltyAnnotation" />
+              <option name="myItemId" value="EveTARNovelty" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NoveltyAnnotation" />
+              <option name="myItemId" value="EveTARNovelty" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NoveltyAnnotation" />
+              <option name="myItemId" value="EveTARNovelty" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,11 +165,8 @@
       <recent name="C:\Users\Reem\Documents\activator\TweetTimelineGeneration\data" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.annotation-twitterstyle.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.annotation.html">
     <configuration default="false" name="annotation-twitterstyle.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TweetTimelineGeneration/annotation-twitterstyle.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="ground-truth.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TweetTimelineGeneration/ground-truth.html">
       <method />
     </configuration>
     <configuration default="false" name="semantic-clusters-twitterstyle.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TweetTimelineGeneration/semantic-clusters-twitterstyle.html">
@@ -178,6 +176,9 @@
       <method />
     </configuration>
     <configuration default="false" name="annotation-twitterstyle.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NoveltyAnnotation/annotation-twitterstyle.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="annotation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EveTARNovelty/NoveltyAnnotation/annotation.html">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -662,18 +663,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ground-truth.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.semantic-clusters-twitterstyle.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html (1)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.semantic-clusters-twitterstyle.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.annotation.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.semantic-clusters-twitterstyle.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ground-truth.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.annotation.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.semantic-clusters-twitterstyle.html" />
       </list>
     </recent_temporary>
   </component>
@@ -716,15 +717,16 @@
       <workItem from="1478671178024" duration="1048000" />
       <workItem from="1478672648919" duration="41000" />
       <workItem from="1478672730822" duration="1342000" />
+      <workItem from="1479311648364" duration="2475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44604000" />
+    <option name="totallyTimeSpent" value="47079000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="187" y="2" width="3026" height="1813" extended-state="1" />
-    <editor active="true" />
+    <frame x="187" y="2" width="3026" height="1813" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -733,13 +735,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946485" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946485" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2426982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2426982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -776,20 +778,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/timeline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-ui/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery-ui/development-bundle/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -916,13 +904,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic65.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic65.json" />
     <entry file="file://$PROJECT_DIR$/js/timeline.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -1028,16 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semantic-clusters-twitterstyle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <marker date="1478165673587" expanded="true" signature="5463:5469" ph="&amp;nbsp;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/sample-json/tweet_topic001.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -1045,69 +1017,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic03.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21780">
-          <caret line="660" column="2" selection-start-line="660" selection-start-column="2" selection-end-line="660" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic04.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic07.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34254">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic02.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic08.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1129">
-          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic10.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="119" column="211" selection-start-line="119" selection-start-column="211" selection-end-line="119" selection-end-column="211" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic18.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic19.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11774">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic01.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="78" column="186" selection-start-line="78" selection-start-column="186" selection-end-line="78" selection-end-column="186" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic03.json" />
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic04.json" />
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic07.json" />
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic02.json" />
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic08.json" />
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic10.json" />
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic18.json" />
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic19.json" />
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic01.json" />
     <entry file="file://$PROJECT_DIR$/data/topics.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1125,16 +1043,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TTGTraining/TTGTraining.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="-1415">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/annotation-twitterstyle.html">
+    <entry file="file://$PROJECT_DIR$/annotation-twitterstyle.html" />
+    <entry file="file://$PROJECT_DIR$/semantic-clusters-twitterstyle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="287" column="12" selection-start-line="287" selection-start-column="12" selection-end-line="287" selection-end-column="12" />
+        <state relative-caret-position="4059">
+          <caret line="123" column="37" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
+          <folding>
+            <marker date="1478165673587" expanded="true" signature="5463:5469" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topicMB01.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1287">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="87" column="86" selection-start-line="87" selection-start-column="78" selection-end-line="87" selection-end-column="86" />
           <folding />
         </state>
       </provider>
