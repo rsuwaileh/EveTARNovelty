@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <link rel="stylesheet" href="css/twitter-style.css" type="text/css">
+    </head>
+    
+    <body style="background-color: #B2D6E9; width: 90%; margin: auto" onload="topicSelection()">
+        <div>
+            Select a topic:
+            <select id = "topicSelect" onchange="topicSelection()">
+                <option></option>
+                <option value="003">3.Haiti Aristide return</option>
+                <option value="021">21.Emanuel residency court rulings</option>
+                <option value="022">22.healthcare law unconstitutional</option>
+                <option value="026">26.US unemployment</option>
+                <option value="042">42.Holland Iran envoy recall</option>
+                <option value="051">51.British Government cuts</option>
+                <option value="057">57.Chicago blizzard</option>
+                <option value="066">66.Journalists' treatment in Egypt</option>
+                <option value="068">68.Charlie Sheen rehab</option>
+                <option value="088">88.Kings' Speech awards</option>
+            </select>
+        </div>
+        <div id="main"></div>
+        
+        <script type="text/javascript">
+            var tweetsPath = "data/relevant-chrono-sort-tweets/json/";
+            var clustersUrl = "data/semantic-clusters-ids/json/clusters-ids.json";
+            
+            function topicSelection() {
+                choices = document.getElementById("topicSelect");
+                topicNum = choices[choices.selectedIndex].value;
+                var tweets = {};
+                $.ajax({
+                    url: tweetsPath + "tweet_topic" + topicNum + ".json",
+                    dataType: "text",
+                    async: false,
+                    success: function(json) {
+                        var data = $.parseJSON(json);
+                        for (var i = 0, tweet; i < data.tweets.length; i++) {
+                            tweet = data.tweets[i];
+                            tweets[tweet.id] = [tweet.time, tweet.name, tweet.screenname, tweet.text];
+                        }
+                    }
+                });
+                var html = "";
+                $.ajax({
+                    url: clustersUrl,
+                    dataType: "text",
+                    async: false,
+                    success: function(json) {
+                        var data = $.parseJSON(json);
+                        var clusters = data.topics["MB" + topicNum].clusters;
+                        for (var i = 0; i < clusters.length; i ++) {
+                            var tweet = tweets[clusters[i][0]];
+                            html += "<div>";
+                            html += "<table cellspacing='0' cellpadding='0' class='tweet'>";
+                            html += "<tr><td>";
+                            html += "<font><b>" + tweet[1] + "</b></font>&nbsp;";
+                            html += "<font class='gray'>@" + tweet[2] + "</font>";
+                            html += "</td></tr>";
+                            html += "<tr><td>";
+                            html += "<div class='text'>" + tweet[3] + "</div>";
+                            html += "</td></tr>";
+                            html += "<tr><td>";
+                            html += "<font class='gray'>" + timeConvert(tweet[0]) + "</font>";
+                            html += "</td></tr>";
+                            html += "</table>";
+                            html += "</div>";
+                        }
+                    }
+                });
+                $("#main").html(html);
+            }
+            
+            //Sun Jan 23 15:53:01 +0000 2011 --> 3:53 PM - 23 Jan 2011
+            function timeConvert(time) {
+                var twelve;
+                var hour = parseInt(time.substring(11, 13));
+                var minute = time.substring(14, 16);
+                if (hour == 12) {
+                    twelve = "12:" + minute + " PM";
+                } else if ( hour > 12) {
+                    twelve = (hour - 12) + ":" + minute + " PM";
+                } else {
+                    twelve = hour + ":" + minute + " AM";
+                }
+                var result = twelve + " - " + time.substring(8, 10) + " " + time.substring(4, 7) + " " + time.substring(26, 30);
+                return result;
+            }
+        </script>
+    </body>
+</html>

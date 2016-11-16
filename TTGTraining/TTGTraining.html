@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <title>TTG Training</title>
+        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    </head>
+    <body>
+        <h1>Tweet Timeline Generation (TTG) Annotation Instructions</h1>
+
+<h2>Introduction</h2>
+
+<p>The goal of our work is to build better search systems for
+tweets. Our particular focus is <i>redundancy</i>, the observation
+that many tweets contain the same information &mdash; we think that
+good search results should "collapse" redundant tweets. In order to
+accomplish this, we need humans to tell us what good search results
+"look like". You will help us accomplish this using a web-based
+annotation interface.</p>
+
+<p>In the annotation task, you will be presented with a number
+of <b>topics</b>. For example, topic 33 is "Dog Whisperer Cesar
+Millan's techniques". This captures a particular subject you'd like to
+find out more about: intuitively, you can think of this as a query
+you'd type into a search engine.</p>
+
+<p>For each topic, you will be presented a list of relevant tweets.  
+Given a topic and the list of relevant tweets, we would like you to create
+clusters &mdash; or groupings &mdash; of tweets that contain substantively
+similar information. In the annotation interface, you will be
+presented with tweets in chronological order (earliest first), one by
+one. For each tweet, you can either add it to a
+previously-existing cluster if you think the tweet contains
+substantively similar information as tweets in an existing cluster,
+or create a new cluster to contain the tweet.</p>
+
+<p>A natural question is: what exactly does "substantively similar
+information" mean? A good rule of thumb is that if two tweets "say
+the same thing", then they're substantively similar. Some questions you
+could ask yourself to see whether two tweets should be in the
+same cluster are:
+<ul>
+    <li>
+        If I had already seen the first tweet, would I have missed out on
+        some information if I didn't see the second tweet?
+    </li>
+    <li>
+        If two tweets are similar but the second contains an addition to or endorsement of the first, 
+        is the addition/endorsement important enough that I would be interested
+        in seeing <i>both</i> tweets?
+    </li>
+    <li>
+        Sometimes two tweets look similar but actually narrate the development of an event.
+        Are the tweets different enough from 
+        each other that I would want to see both tweets to understand how an event develops or unfolds?
+    </li>
+</ul>
+Ultimately, there is no "right" answer and what constitutes "substantive similarity"
+depends entirely on your subjective judgment. In other words, whatever you say goes! Of
+course, language allows us to say similar things using different
+words, so pay attention to the meaning expressed in the tweets, not
+just the words.</p>
+
+<p>Finally, note that many of the tweets contain links (URLs). You
+should ignore them during your decision-making; for the purposes of this
+task, tweet similarity depends only on the contents of the tweets
+themselves, not on anything those tweets point to.</p>
+
+<h2>Annotation Interface Instructions</h2>
+
+<p>The annotation interface is located <a href="http://ylwang99.github.io/TweetTimelineGeneration/annotation-twitterstyle.html">here</a>.
+Open the page in Chrome or Safari (doesn't work on Firefox).
+Below is a detailed walkthrough demo of the interface, with topic 33 as an example.</p>
+
+        <p>
+            (1) Click on "Instructions" to get basic instruction on how to manipulate the interface. During the whole process, you can press Space to create a new cluster, press 'x' or
+            'X' to take suggestion, press 'z' or 'Z' to undo.</p>
+            <p><img src="images/1.png" width=1000px/></p>
+
+<p>
+            (2) Select topic 33. Before you start working on a topic, familiarize yourself with the topic (e.g., by doing a few searches online). In this case, you might visit a page like
+            <a href="http://www.cesarsway.com/training/thewalk/6-Tips-for-Mastering-the-Dog-Walk">this one</a> to learn a bit more about who Cesar Millan is.</p>
+            <p><img src="images/2.png" width=1000px/></p>
+
+<p>
+            (3) Once you are ready to begin, new tweets come one at a time at the bottom of the screen. The number of remaining tweets to be judged is displayed on the upper right. For each tweet, you must decide whether to
+            create a new cluster or place it in an existing cluster. The interface moves on to the next tweet once a decision has been made.</p>
+            <p><img src="images/3.png" width=1000px/></p>
+
+
+            <p>(3.1) For the first tweet, create a new cluster by pressing Space. Note that the interface creates a cluster in white.</p>
+            <p><img src="images/4.png" width=1000px/></p>
+
+            <p>(3.2) For the second tweet, we might say that it does not contain substantively similar information as the previous tweet, so we create another new cluster by pressing Space. The interface now has two clusters:</p>
+            <!--p><img src="images/5.png" width=1000px/></p-->
+            <p><img src="images/6.png" width=1000px/></p>
+
+            <p>(3.3) For the third tweet, which is this:</p>
+            <p><img src="images/7.png" width=1000px/></p>
+            <p>We might say that it is substantively similar to the second cluster, so we put it in the second cluster by clicking the "Add" button in front of the
+            second cluster. This tweet is automatically added to the second cluster. Now the interface looks like this:</p>
+            <p><img src="images/8.png" width=1000px/><br/>
+
+            <p>(3.4) You can click on "Expand all" or "Collapse all" to expand/collapse all the existing clusters, or click on individual clusters to expand/collapse them.</p>
+
+            <p>(3.5) For the fourth tweet, let's add it to the second cluster.</p>
+
+            <p>(3.6) When you come across the fifth tweet, you'll find that a cluster is highlighted in light blue (as well as the tweet at the bottom). 
+            This means that the system has found an existing cluster that it thinks is similar. If you agree with the system's suggestion, press 'x' to take the system suggestion.
+            Of course, you can always ignore the system's suggestion and do whatever you feel is appropriate (create new cluster, add to another cluster).
+            Note that suggestion doesn't
+            always happen and you need to rely on your own judgment most of the time.</p>
+            <p><img src="images/9.png" width=1000px/><br/></p>
+
+            <p>(3.7) If you're regretting on any annotations and want to undo previous operations, just press 'z'.</p>
+
+            <p>(3.8) Keep annotating the tweets until you're done, like below:</p>
+            <p><img src="images/10.png" width=1000px/></p>
+
+            <p>(3.9) Click on "Store results" on the upper right, and a file window will pop up for you to store the results.</p>
+            <p><img src="images/11.png" width=1000px/></p>
+            <p>The file name is automatically populated; you can just choose a place to store it. The annotation on this topic is done once the file has been successfully created and stored.</p>
+
+            <p><strong><font color="red">(3.10) Always remember to finish one topic before you move on to another; otherwise all the clustering results on the current topic will be lost. Also, do not reload the browser when you are in the middle of annotating a topic, or your results will be lost.</font></strong>
+        </p>
+
+
+<h2>Annotation Instructions</h2>
+
+<p>Work on topic 33 in the lab to familiarize yourself with the
+interface and all its features.</p>
+
+<p>Once you're done with the training, you'll be given a list of
+topics to annotate on your own computer. You can perform the
+annotation anytime, anywhere you wish, but in a distraction-free
+environment. We ask that once you begin a topic you do not stop until
+the entire topic is finished. This will minimize the chance of losing
+results &mdash; remember, there is no way for the interface to save
+intermediate results. If you accidentally close the browser tab or hit
+refresh, all your work will be lost.</p>
+
+<p>Any time during the annotation task, do not hesitate to ask us
+questions over email.</p>
+
+<p>You will be compensated at $15/hr. We estimate that each topic will
+take about an hour on average; however, some topics have more tweets
+than others. Please keep track of how long it takes to
+complete <b>each</b> topic (to the nearest quarter of an hour, e.g.,
+1.75 hours). <b>Important: we will not be able to properly compensate
+you unless you provide detailed accounting of the time spent.</b></p>
+
+<p>You will be given two special topics, topic A and topic B, and then
+a batch of 10 additional topics. We ask that you first complete topic
+A and immediately email us back the results. Then work on topic B and
+immediately email us back the results. After you have done both
+topics, you can work on the remaining 10 topics in whatever order you
+choose. For these ten topics, it does not matter if you send us the
+results one at a time, or all at once. <b>However, it is important
+that you first complete topics A and B.</b></p>
+
+<p>When you have completed all your assigned topics, we will make
+arrangements for you to receive compensation. If you're interested, we
+can give you another batch of topics to work on.</p>
+
+    </body>
+</html>
