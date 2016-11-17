@@ -1,68 +1,48 @@
 <html>
     <head>
-        <title>TTG Training</title>
+        <title>ورشة التدريب</title>
         <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     </head>
     <body>
-        <h1>Tweet Timeline Generation (TTG) Annotation Instructions</h1>
+        <h1>تعليمات تصنيف التغريدات حسب التشابه</h1>
 
-<h2>Introduction</h2>
+<h2>مقدمة</h2>
 
-<p>The goal of our work is to build better search systems for
-tweets. Our particular focus is <i>redundancy</i>, the observation
-that many tweets contain the same information &mdash; we think that
-good search results should "collapse" redundant tweets. In order to
-accomplish this, we need humans to tell us what good search results
-"look like". You will help us accomplish this using a web-based
-annotation interface.</p>
+<p>الهدف من هذه المهمّة هو تطوير برنامج للبحث عن التغريدات العربية المتعلقة بموضوع معين بحيث يظهر برنامج البحث للمستخدم التغريدات التي تلخص الموضوع بلا تكرار في المعلومات بين التغريدات. يقوم البرنامج بعمل هذا من خلال حذف التغريدات المكررة من نتاج البحث (أي التغريدات التي تحتوي على معلومات مشابهة لتغريدات أخرى سبق عرضها على المستخدم).</p>
 
-<p>In the annotation task, you will be presented with a number
-of <b>topics</b>. For example, topic 33 is "Dog Whisperer Cesar
-Millan's techniques". This captures a particular subject you'd like to
-find out more about: intuitively, you can think of this as a query
-you'd type into a search engine.</p>
+<p>في هذه المهمّة سنعرض عليك قائمة من الموضوعات أو الأحداث الحقيقيَة كـ "عاصفة الحزم". باختيارك لأحد المواضيع، ستعرض لك مجموعة من التغريدات العربية ذات صلة جيّدة بموضوع البحث والتي نود تصنيفها إلى مجموعات منفصلة حسب تشابه محتواها بدقّة. ستعرض التغريدات على التوالي (تغريدة في كل مرة) في تسلسل زمني يعتمد على الوقت التي نُشِرَت فيه (من الأقدم للأحدث). </p>
 
-<p>For each topic, you will be presented a list of relevant tweets.  
-Given a topic and the list of relevant tweets, we would like you to create
-clusters &mdash; or groupings &mdash; of tweets that contain substantively
-similar information. In the annotation interface, you will be
-presented with tweets in chronological order (earliest first), one by
-one. For each tweet, you can either add it to a
-previously-existing cluster if you think the tweet contains
-substantively similar information as tweets in an existing cluster,
-or create a new cluster to contain the tweet.</p>
+<p>
+    لكل تغريدة تُعرض أمامك بإمكانك إضافتها إلى إي من المجموعات التي أُنشأتها سابقًا حسب تشابه المحتوى أو إنشاء مجموعة جديدة وإضافتها لها إن كانت لا تشبه أي تغريدة سابقة. في كل مجموعة، التغريدة الأولى التي أنشأت لها مجموعة جديدة ( سنسميها التغريدة الأساسية) هي معيار القياس (مرجع المقارنة مع أي تغريدة جديدة). السؤال الجوهري للقيام بهذا التصنيف هو: "كيف يمكنني معرفة إذا كانت التغريدة مشابهة لتغريدات أخرى حتى أستطيع تصنيفها بشكل صحيح؟". يمكنك طرح الأسئلة التالية قبل القيام بتصنيف أي تغريدة (اعتبري هذه الأسئلة هي القاعدة الأساسية طوال فترة التصنيف):
+        <ul>
+            <li>
+                    إن كنت قد رأيت سابقًا التغريدة الأولى (الأساسية) التي أضفتها لكل مجموعة فهل سيفوتني شيء إن لم أرى التغريدة الجديدة؟
+            </li>
+            <li>
+                إن كنت قد رأيت تغريدتين تحتويان معلومات متشابهة، وتحتوي الأخرى معلومات إضافية تزيد على التغريدة السابقة (وفقًا للتسلسل الزمني الذي تعرض به التغريدات) فهل هذه الإضافة مهمّة لحد كافٍ يجعلني أريد رؤية كلاهما في نتاج البحث للموضوع؟
+            </li>
+            <li>
+               أحيانًا سيبدو لك أن تغريدتان متشابهتان إلى حد كبير، لكنهما ترويان تطورات عن الحدث! فهل هما مختلفتان لحد كافٍ يجعلني أريد رؤية كلاهما في نتاج البحث للموضوع؟
+            </li>
+        </ul>
+</p>
 
-<p>A natural question is: what exactly does "substantively similar
-information" mean? A good rule of thumb is that if two tweets "say
-the same thing", then they're substantively similar. Some questions you
-could ask yourself to see whether two tweets should be in the
-same cluster are:
-<ul>
-    <li>
-        If I had already seen the first tweet, would I have missed out on
-        some information if I didn't see the second tweet?
-    </li>
-    <li>
-        If two tweets are similar but the second contains an addition to or endorsement of the first, 
-        is the addition/endorsement important enough that I would be interested
-        in seeing <i>both</i> tweets?
-    </li>
-    <li>
-        Sometimes two tweets look similar but actually narrate the development of an event.
-        Are the tweets different enough from 
-        each other that I would want to see both tweets to understand how an event develops or unfolds?
-    </li>
-</ul>
-Ultimately, there is no "right" answer and what constitutes "substantive similarity"
-depends entirely on your subjective judgment. In other words, whatever you say goes! Of
-course, language allows us to say similar things using different
-words, so pay attention to the meaning expressed in the tweets, not
-just the words.</p>
+<p>
+    ملاحظات هامة:
+        <ul>
+            <li>
+ بشكل عام لا يوجد إجابة واحدة صحيحة فالتصنيف يعتمد على وجهة نظر من يقوم بالمهمّة بعد قراءة التغريدات بدقة والتحري والتأكد.             </li>
+            <li>
+إن كانت التغريدات تحتوي على الروابط، لا يلزم الاطلاع عليها وإنما يُكتفى بالاطلاع على نص التغريدة الأصلي ومعناه للتصنيف. </li>
+            <li>
+ قد تجد بعض التغريدات التي لا علاقة لها بالموضوع، أضفها جميعها في مجموعة واحدة.            </li>
+            <li>
+ بعد اتمامكِ التدريب على المهمة سوف نقوم بمراجعة عملك للتأكد من فهمط الصحيح للمهمة.  </li>
+            <li>
+                -	في حال أكملت العمل معنا على التصنيف، سنقوم بمراجعة عملك بعد انتهائك منه للتأكد من أنك قمتي به بدقة وبتركيز.            </li>
+        </ul>
 
-<p>Finally, note that many of the tweets contain links (URLs). You
-should ignore them during your decision-making; for the purposes of this
-task, tweet similarity depends only on the contents of the tweets
-themselves, not on anything those tweets point to.</p>
+</p>
 
 <h2>Annotation Interface Instructions</h2>
 

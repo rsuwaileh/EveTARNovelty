@@ -20,84 +20,22 @@
     <favorites_list name="TweetTimelineGeneration" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+    <leaf>
       <file leaf-file-name="TTGTraining.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TTGTraining/TTGTraining.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1415">
-              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            <state relative-caret-position="1056">
+              <caret line="41" column="127" selection-start-line="41" selection-start-column="127" selection-end-line="41" selection-end-column="127" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topics.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/topics.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="447" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="semantic-clusters-twitterstyle.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/semantic-clusters-twitterstyle.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4059">
-              <caret line="123" column="37" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
-              <folding>
-                <marker date="1478165673587" expanded="true" signature="5463:5469" ph="&amp;nbsp;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="annotation.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="annotation.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/annotation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="87" column="86" selection-start-line="87" selection-start-column="78" selection-end-line="87" selection-end-column="86" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tweet_topic001.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/sample-json/tweet_topic001.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MB020.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/sample-txt/MB020.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tweet-topic18.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic18.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tweet-topic43.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic43.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="917">
-              <caret line="168" column="143" selection-start-line="168" selection-start-column="143" selection-end-line="168" selection-end-column="143" />
+            <state relative-caret-position="799">
+              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -122,8 +60,10 @@
         <option value="$PROJECT_DIR$/semantic-clusters-twitterstyle.html" />
         <option value="$PROJECT_DIR$/annotation-twitterstyle.html" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic01.json" />
-        <option value="$PROJECT_DIR$/annotation.html" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic18.json" />
+        <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic43.json" />
+        <option value="$PROJECT_DIR$/TTGTraining/TTGTraining.html" />
+        <option value="$PROJECT_DIR$/annotation.html" />
       </list>
     </option>
   </component>
@@ -164,7 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -194,53 +134,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EveTARNovelty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EveTARNovelty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="relevant-chrono-sort-tweets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EveTARNovelty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EveTARNovelty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="relevant-chrono-sort-tweets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="evetar-json" />
+              <option name="myItemId" value="TTGTraining" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -812,15 +712,16 @@
       <workItem from="1478671178024" duration="1048000" />
       <workItem from="1478672648919" duration="41000" />
       <workItem from="1478672730822" duration="1342000" />
-      <workItem from="1479311648364" duration="4350000" />
+      <workItem from="1479311648364" duration="5213000" />
+      <workItem from="1479328326860" duration="1871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48954000" />
+    <option name="totallyTimeSpent" value="51688000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="187" y="2" width="3026" height="1813" extended-state="1" />
+    <frame x="187" y="2" width="3026" height="1813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -836,7 +737,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1762865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20445062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1088,7 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="447" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,46 +999,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TTGTraining/TTGTraining.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1415">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/annotation-twitterstyle.html" />
     <entry file="file://$PROJECT_DIR$/semantic-clusters-twitterstyle.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4059">
           <caret line="123" column="37" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
-          <folding>
-            <marker date="1478165673587" expanded="true" signature="5463:5469" ph="&amp;nbsp;" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topicMB01.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
-          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/annotation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="87" column="86" selection-start-line="87" selection-start-column="78" selection-end-line="87" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topicMB01.json" />
     <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-txt/MB01.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1152">
           <caret line="66" column="17" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,7 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,15 +1040,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic18.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="25" />
-          <folding />
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1186,6 +1054,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="917">
           <caret line="168" column="143" selection-start-line="168" selection-start-column="143" selection-end-line="168" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTGTraining/TTGTraining.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="41" column="127" selection-start-line="41" selection-start-column="127" selection-end-line="41" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding />
         </state>
       </provider>
