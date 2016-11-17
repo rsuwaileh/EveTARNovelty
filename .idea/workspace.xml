@@ -21,21 +21,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TTGTraining.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TTGTraining.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TTGTraining/TTGTraining.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="41" column="127" selection-start-line="41" selection-start-column="127" selection-end-line="41" selection-end-column="127" />
-              <folding />
+            <state relative-caret-position="3192">
+              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#strong#1;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#strong#1;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#strong#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#li#0;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#1;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#3;n#ul#0;n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#span#0;n#li#3;n#ul#0;n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#4;n#ul#0;n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#li#3;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#ul#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#u#0;n#strong#0;n#li#10;n#ul#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="annotation.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/annotation.html">
+      <file leaf-file-name="annotation-new.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annotation-new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="705">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,8 +79,8 @@
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic01.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic18.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic43.json" />
-        <option value="$PROJECT_DIR$/TTGTraining/TTGTraining.html" />
         <option value="$PROJECT_DIR$/annotation.html" />
+        <option value="$PROJECT_DIR$/TTGTraining/TTGTraining.html" />
       </list>
     </option>
   </component>
@@ -124,20 +141,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EveTARNovelty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EveTARNovelty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TTGTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -154,17 +157,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Reem\git\EveTARNovelty\images" />
       <recent name="C:\Users\Reem\Documents\activator\TweetTimelineGeneration\data\relevant-chrono-sort-tweets\evetar-json" />
       <recent name="C:\Users\Reem\Documents\activator\TweetTimelineGeneration\data\relevant-chrono-sort-tweets\json" />
       <recent name="C:\Users\Reem\Documents\activator\TweetTimelineGeneration\data\relevant-chrono-sort-tweets\txt" />
       <recent name="C:\Users\Reem\Documents\activator\TweetTimelineGeneration\data" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.annotation.html">
+  <component name="RunManager" selected="JavaScript Debug.TTGTraining.html (1)">
     <configuration default="false" name="annotation-twitterstyle.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TweetTimelineGeneration/annotation-twitterstyle.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="semantic-clusters-twitterstyle.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TweetTimelineGeneration/semantic-clusters-twitterstyle.html">
       <method />
     </configuration>
     <configuration default="false" name="TTGTraining.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TweetTimelineGeneration/TTGTraining/TTGTraining.html">
@@ -173,7 +174,10 @@
     <configuration default="false" name="annotation-twitterstyle.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NoveltyAnnotation/annotation-twitterstyle.html">
       <method />
     </configuration>
-    <configuration default="false" name="annotation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EveTARNovelty/NoveltyAnnotation/annotation.html">
+    <configuration default="false" name="annotation-new.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EveTARNovelty/NoveltyAnnotation/annotation-new.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="TTGTraining.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EveTARNovelty/NoveltyAnnotation/TTGTraining/TTGTraining.html">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -658,18 +662,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.semantic-clusters-twitterstyle.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.annotation.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.annotation-new.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.annotation.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.semantic-clusters-twitterstyle.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.annotation-new.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html" />
       </list>
     </recent_temporary>
   </component>
@@ -713,16 +717,16 @@
       <workItem from="1478672648919" duration="41000" />
       <workItem from="1478672730822" duration="1342000" />
       <workItem from="1479311648364" duration="5213000" />
-      <workItem from="1479328326860" duration="1871000" />
+      <workItem from="1479328326860" duration="6523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51688000" />
+    <option name="totallyTimeSpent" value="56340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="187" y="2" width="3026" height="1813" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -737,7 +741,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20445062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20445062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -774,20 +778,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TTGTraining/TTGTraining.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/topics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/topics-microblog-querytweet-epoch.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1057,19 +1047,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TTGTraining/TTGTraining.html">
+    <entry file="file://$PROJECT_DIR$/annotation-new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="41" column="127" selection-start-line="41" selection-start-column="127" selection-end-line="41" selection-end-column="127" />
+        <state relative-caret-position="705">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/annotation.html">
+    <entry file="file://$PROJECT_DIR$/images/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-txt/MB43.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TTGTraining/TTGTraining.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3192">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#strong#1;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#strong#1;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#li#0;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#1;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#3;n#ul#0;n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#span#0;n#li#3;n#ul#0;n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#4;n#ul#0;n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#li#3;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#ul#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#u#0;n#strong#0;n#li#10;n#ul#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

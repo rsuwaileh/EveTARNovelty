@@ -1,6 +1,6 @@
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
     <title></title>
     <!--<script type="text/javascript" src="data/topics.js"></script>-->
@@ -17,12 +17,15 @@
 <body style="background-color: #B2D6E9; width: 90%; margin: auto" onload="topicSelection()">
 <div id='instructions'>
     <div id='header'>Instructions</div>
-    <div id='content'>Place the tweet at the bottom of the screen in a cluster by clicking the "Add" button in front of the cluster or press Space to create a new cluster. Press 'x' or 'X' to take suggestion, press 'z' or 'Z' to undo.</div>
+    <div id='content'>Place the tweet at the bottom of the screen in a cluster by clicking the "Add" button in front of
+        the cluster or press Space to create a new cluster. Press 'x' or 'X' to take suggestion, press 'z' or 'Z' to
+        undo.
+    </div>
 </div>
 
 <div>
     Select a topic:
-    <select id = "topicSelect" onchange="topicSelection()">
+    <select id="topicSelect" onchange="topicSelection()">
         <option></option>
     </select>
     <button id="expand" onclick="expand()">Expand all</button>
@@ -43,18 +46,18 @@
 
 <script type="text/javascript">
 
-        for (var i = 0; i <= 66; i ++) {
-            var ind = "";
-            if (i < 10) {
-                //ind = "00" + i;
-                ind = "0" + i;
-            }else {
-                ind = i;
-            }
-            if (i != 17 && i != 28 && i != 29 && i != 31 && i != 34 && i != 37 && i != 45 && i != 46 && i != 49 && i != 52 && i != 53 && i != 55 && i != 61 && i != 62 && i != 64 && i != 66) {
-                $("#topicSelect").append("<option value='" + ind + "'>" + ind + "." + topics[i] + "</option>");
-            }
+    for (var i = 0; i <= 66; i++) {
+        var ind = "";
+        if (i < 10) {
+            //ind = "00" + i;
+            ind = "0" + i;
+        } else {
+            ind = i;
         }
+        if (i != 17 && i != 28 && i != 29 && i != 31 && i != 34 && i != 37 && i != 45 && i != 46 && i != 49 && i != 52 && i != 53 && i != 55 && i != 61 && i != 62 && i != 64 && i != 66) {
+            $("#topicSelect").append("<option value='" + ind + "'>" + ind + "." + topics[i] + "</option>");
+        }
+    }
     $("#instructions").accordion({
         header: '#header',
         active: false,
@@ -88,7 +91,7 @@
             url: "data/relevant-chrono-sort-tweets/evetar-json/tweet-topic" + topicNum + ".json",
             dataType: "text",
             async: false,
-            success: function(json) {
+            success: function (json) {
                 var data = $.parseJSON(json);
                 tweetsTotal = data.tweets.length;
                 for (var i = 0, tweet; i < tweetsTotal; i++) {
@@ -143,8 +146,8 @@
             storeResults();
         } else {
             var maxSimi = 0;
-            for (var i = 0; i < clustersIds.length; i ++) {
-                for (var j = 0; j < clustersIds[i].length; j ++) {
+            for (var i = 0; i < clustersIds.length; i++) {
+                for (var j = 0; j < clustersIds[i].length; j++) {
                     var similarity = jaccard(clustersText[i][j], tweetText[current]);
                     if (similarity > threshold && similarity > maxSimi) {
                         maxSimi = similarity;
@@ -191,7 +194,7 @@
 
     function clustersHTML() {
         var html = "";
-        for (var i = 0; i < clustersIds.length; i ++) {
+        for (var i = 0; i < clustersIds.length; i++) {
             html += "<table cellspacing='0' cellpadding='0' class='clusterTable'>";
             html += "<tr>";
             html += "<td class='addTd'><button id='addToClusterBtn" + i + "' onclick='addToCluster(" + i + ")'>Add</button></td>";
@@ -214,7 +217,7 @@
             }
             html += "</div>";
             html += "<div>";
-            for (var j = 1; j < clustersIds[i].length; j ++) {
+            for (var j = 1; j < clustersIds[i].length; j++) {
                 html += tweetHTML(clustersText[i][j], clustersTime[i][j], "normal");
             }
             html += "</div>";
@@ -247,7 +250,7 @@
         var minute = time.substring(14, 16);
         if (hour == 12) {
             twelve = "12:" + minute + " PM";
-        } else if ( hour > 12) {
+        } else if (hour > 12) {
             twelve = (hour - 12) + ":" + minute + " PM";
         } else {
             twelve = hour + ":" + minute + " AM";
@@ -273,7 +276,7 @@
 
     function tweetRefine(t) {
         var vocab = {};
-        for (var i = 0; i < t.length; i ++) {
+        for (var i = 0; i < t.length; i++) {
             if (t[i] !== "rt" && t[i].substring(0, 4) !== "http" && t[i][0] !== "@") {
                 if (t[i][0] === "#") {
                     t[i] = t[i].substring(1, t[i].length);
@@ -316,9 +319,9 @@
         results += '  "clusters":\n\n';
         results += '[\n';
         var clustersIdsJson = JSON.stringify(clustersIds);
-        for (var i = 0; i < clustersIds.length; i ++) {
+        for (var i = 0; i < clustersIds.length; i++) {
             results += '["' + clustersIds[i][0] + '"';
-            for (var j = 1; j < clustersIds[i].length; j ++) {
+            for (var j = 1; j < clustersIds[i].length; j++) {
                 results += ',\n"' + clustersIds[i][j] + '"';
             }
             if (i == clustersIds.length - 1) {
@@ -328,16 +331,22 @@
             }
         }
         results += "]\n}";
-        Downloadify.create('downloadify',{
-            filename: function(){
+        Downloadify.create('downloadify', {
+            filename: function () {
                 return "MB" + topicNum + ".json";
             },
-            data: function(){
+            data: function () {
                 return results;
             },
-            onComplete: function(){ alert('Your file has been saved!'); },
-            onCancel: function(){ alert('You have cancelled the saving of this file.'); },
-            onError: function(){ alert('You must put something in the File Contents or there will be nothing to save!'); },
+            onComplete: function () {
+                alert('Your file has been saved!');
+            },
+            onCancel: function () {
+                alert('You have cancelled the saving of this file.');
+            },
+            onError: function () {
+                alert('You must put something in the File Contents or there will be nothing to save!');
+            },
             swf: 'downloadify/media/downloadify.swf',
             downloadImage: 'downloadify/images/store.png',
             width: 90,
@@ -352,13 +361,18 @@
         var exportButtonHeight = exportButton.outerHeight();
         var exportButtonPosition = exportButton.position();
 
-        flashObject.css( { width: exportButtonWidth, height: exportButtonHeight } );
-        flashObject.css( { top: exportButtonPosition.top - 13, left: exportButtonPosition.left, position: 'absolute', 'z-index': 1} );
+        flashObject.css({width: exportButtonWidth, height: exportButtonHeight});
+        flashObject.css({
+            top: exportButtonPosition.top - 13,
+            left: exportButtonPosition.left,
+            position: 'absolute',
+            'z-index': 1
+        });
     }
 
     document.onkeypress = function (e) {
         //press space to create a new cluster
-        if(e.keyCode == 32) {
+        if (e.keyCode == 32) {
             createCluster();
         }
         //press 'x' or 'X' to take suggestion
@@ -366,7 +380,7 @@
             takeSuggestion();
         }
         //press 'z' or 'Z' to undo
-        if(e.keyCode == 122 || e.keyCode == 90){
+        if (e.keyCode == 122 || e.keyCode == 90) {
             undo();
         }
     };
