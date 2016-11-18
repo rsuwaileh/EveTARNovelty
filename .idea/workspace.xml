@@ -20,38 +20,42 @@
     <favorites_list name="TweetTimelineGeneration" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TTGTraining.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TTGTraining/TTGTraining.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="training.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/training.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3192">
-              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#1;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#strong#1;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#li#0;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#li#1;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#li#3;n#ul#0;n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#span#0;n#li#3;n#ul#0;n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#li#4;n#ul#0;n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#li#3;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#ul#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#u#0;n#strong#0;n#li#10;n#ul#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/6.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/7.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7b.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/7b.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="annotation-new.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/annotation-new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
+            <state relative-caret-position="33">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
@@ -121,8 +125,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -143,7 +147,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,17 +161,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Reem\git\EveTARNovelty" />
       <recent name="C:\Users\Reem\git\EveTARNovelty\images" />
       <recent name="C:\Users\Reem\Documents\activator\TweetTimelineGeneration\data\relevant-chrono-sort-tweets\evetar-json" />
       <recent name="C:\Users\Reem\Documents\activator\TweetTimelineGeneration\data\relevant-chrono-sort-tweets\json" />
       <recent name="C:\Users\Reem\Documents\activator\TweetTimelineGeneration\data\relevant-chrono-sort-tweets\txt" />
-      <recent name="C:\Users\Reem\Documents\activator\TweetTimelineGeneration\data" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.TTGTraining.html (1)">
-    <configuration default="false" name="annotation-twitterstyle.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TweetTimelineGeneration/annotation-twitterstyle.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.training.html">
     <configuration default="false" name="TTGTraining.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TweetTimelineGeneration/TTGTraining/TTGTraining.html">
       <method />
     </configuration>
@@ -178,6 +179,9 @@
       <method />
     </configuration>
     <configuration default="false" name="TTGTraining.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EveTARNovelty/NoveltyAnnotation/TTGTraining/TTGTraining.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="training.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EveTARNovelty/NoveltyAnnotation/training.html">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -661,19 +665,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.annotation-new.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html (1)" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.annotation-new.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.training.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.annotation-new.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html (1)" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.training.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.annotation-new.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.annotation-twitterstyle.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.TTGTraining.html" />
       </list>
     </recent_temporary>
   </component>
@@ -717,12 +721,13 @@
       <workItem from="1478672648919" duration="41000" />
       <workItem from="1478672730822" duration="1342000" />
       <workItem from="1479311648364" duration="5213000" />
-      <workItem from="1479328326860" duration="6523000" />
+      <workItem from="1479328326860" duration="7119000" />
+      <workItem from="1479449357727" duration="575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56340000" />
+    <option name="totallyTimeSpent" value="57511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="187" y="2" width="3026" height="1813" extended-state="0" />
@@ -778,34 +783,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/topics-microblog-querytweet-epoch.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/representatives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/timeline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-ui/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery-ui/development-bundle/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1047,14 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/annotation-new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1064,32 +1033,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/7b.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation-new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/training.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TTGTraining/TTGTraining.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3192">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#1;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#strong#1;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#li#0;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#1;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#3;n#ul#0;n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#span#0;n#li#3;n#ul#0;n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#4;n#ul#0;n#li#2;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#3;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#ul#0;n#li#4;n#ol#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#u#0;n#strong#0;n#li#10;n#ul#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1101">
+          <caret line="71" column="115" selection-start-line="71" selection-start-column="115" selection-end-line="71" selection-end-column="120" />
+          <folding />
         </state>
       </provider>
     </entry>
