@@ -20,48 +20,7 @@
     <favorites_list name="TweetTimelineGeneration" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="tweet-topic65.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic65.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tweet-topic63.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic63.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tweet-topic60.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic60.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tweet-topic59.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic59.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="463" column="127" selection-start-line="463" selection-start-column="0" selection-end-line="464" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,7 +51,6 @@
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic15.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic16.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic18.json" />
-        <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic19.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic20.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic21.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic23.json" />
@@ -101,10 +59,8 @@
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic22.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic26.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic27.json" />
-        <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic30.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic32.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic33.json" />
-        <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic35.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic36.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic38.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic39.json" />
@@ -122,9 +78,12 @@
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic54.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic51.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic44.json" />
-        <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic47.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic48.json" />
         <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic50.json" />
+        <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic19.json" />
+        <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic47.json" />
+        <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic35.json" />
+        <option value="$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic30.json" />
       </list>
     </option>
   </component>
@@ -820,16 +779,16 @@
       <workItem from="1479450161378" duration="67000" />
       <workItem from="1479467592871" duration="4684000" />
       <workItem from="1479672545595" duration="748000" />
-      <workItem from="1479760725487" duration="1182000" />
+      <workItem from="1479760725487" duration="2144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64399000" />
+    <option name="totallyTimeSpent" value="65361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="187" y="2" width="3026" height="1813" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -844,7 +803,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20445062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14255911" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1016,14 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic19.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic20.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -1088,14 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic30.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic32.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -1105,14 +1048,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic33.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic35.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
@@ -1184,14 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic58.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic57.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1220,22 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic44.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic47.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1283,7 +1194,55 @@
     <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic59.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
-          <caret line="463" column="127" selection-start-line="463" selection-start-column="0" selection-end-line="464" selection-end-column="0" />
+          <caret line="463" column="118" selection-start-line="463" selection-start-column="118" selection-end-line="463" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic58.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14107">
+          <caret line="17" column="95" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic47.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="842">
+          <caret line="268" column="130" selection-start-line="268" selection-start-column="130" selection-end-line="268" selection-end-column="130" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic35.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="84" column="118" selection-start-line="84" selection-start-column="118" selection-end-line="84" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic30.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="917">
+          <caret line="264" column="130" selection-start-line="264" selection-start-column="130" selection-end-line="264" selection-end-column="130" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic44.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/relevant-chrono-sort-tweets/evetar-json/tweet-topic19.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="157" column="118" selection-start-line="157" selection-start-column="118" selection-end-line="157" selection-end-column="118" />
           <folding />
         </state>
       </provider>
