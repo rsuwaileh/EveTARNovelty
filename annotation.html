@@ -39,7 +39,7 @@
     <p id="downloadify" style="opacity: 0"></p>
 </div>
 
-<div id="presentTweet"></div>
+<div id="presentTweet" dir='RTL' ></div>
 <br><br><br>
 <div id="clustersScroll"></div>
 
@@ -55,7 +55,7 @@
             ind = i;
         }
         if (i != 17 && i != 28 && i != 29 && i != 31 && i != 34 && i != 37 && i != 45 && i != 46 && i != 49 && i != 52 && i != 53 && i != 55 && i != 61 && i != 62 && i != 64 && i != 66) {
-            $("#topicSelect").append("<option value='" + ind + "'>" + ind + "." + topics[i] + "</option>");
+            $("#topicSelect").append("<option dir='RTL' value='" + ind + "'>" + ind + "." + topics[i] + "</option>");
         }
     }
     $("#instructions").accordion({
